@@ -1,0 +1,17 @@
+document:
+
+mysql> create function ze returns string soname "zran.so";
+mysql> drop function ze;
+mysql> select ze(filename, offset, ... );
+
+libzran:
+
+rename index into place on success.
+
+udf:
+
+might be nice to allow for n-argument aggregates, like the command line tool.
+
+zran:
+
+-c only works while re-creating the index .. which is kind of crap.
